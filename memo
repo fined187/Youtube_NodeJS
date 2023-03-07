@@ -1,0 +1,5 @@
+./bin/elasticsearch-certutil cert \ 
+--ca elastic-stack-ca.p12
+--dns elastic-1, elastic-2, elastic-3 \ 
+--ip 10.178.0.5, 10.178.0.6, 10.178.0.7 \
+--out config/certs/es-cluster.p12
